@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding:0px;	
+}
+
+body {
+	background-color: rgb(244, 242, 242);
+}
+
+#banner{
+    margin-top: 0;
+    background: linear-gradient(rgba(0,0,0,0.5),#000000c2),url(../Image/BannerBackGround.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 94vh;
+
+}
+
+.banner-text {
+
+    text-align: center;
+    color: #ffff;
+    padding-top: 180px;
+    font-family: 'Readex Pro', sans-serif;
+
+}
+
+.banner-text h1{
+
+    font-size: 130px;
+    font-style: italic;    
+    font-family: 'Kaushan Script', cursive;
+}
+
+.container {
+	background: linear-gradient(rgb(0 0 0 / 83%),#0000008c),url(../Image/ContainerBackground.jpg);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    height: 94vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divider {
+	width: 21%;
+	padding: 15px 0px;
+	height: auto;
+	float: left;
+}
+
+/*.box {
+	width: 90%;
+	margin: 0% 5%;
+	height: 130px;
+	float: left;
+	border-radius: 15px;
+	box-shadow: 1.5px 2px 1px #000000;
+	transition: transform 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+
+
+.box {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color:rgb(255, 255, 255);
+	width: 88%;
+	margin: 0% 5%;
+	height: 130px;
+	float: left;
+	background:rgb(255, 255, 255);
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 14px;
+	transition: 0.3s;
+}
+.box_img{
+	position: absolute;
+    width: 50px;
+    margin-bottom: 140px;
+    margin-inline-end: 190px;
+    z-index: 1;
+}
+
+#box1 {background-color: #b24d00;}
+#box2 {background-color: #ff6f00;}
+#box3 {background-color: #ff8b33;}
+#box4 {background-color: #ffd54f;}
+#box5 {border: 2px solid #b24d00; color: #b24d00; transition: 0.3s;}
+#box6 {border: 2px solid #ff6f00;; color: #ff6f00; transition: 0.3s;}
+#box7 {border: 2px solid #ff8b33; color: #ff8b33; transition: 0.3s;}
+#box8 {border: 2px solid #ffd54f; color: #ffd54f; transition: 0.3s;}
+#box9 {border: 2px solid black; color: black; transition: 0.3s;}
+
+#box5:hover {background: linear-gradient(0deg, #b24d00, white); color: white;}
+#box6:hover {background: linear-gradient(0deg, #ff6f00, white); color: white;}
+#box7:hover {background: linear-gradient(0deg, #ff8b33, white); color: white;}
+#box8:hover {background: linear-gradient(0deg, #ffd54f, white); color: black;}
+#box9:hover {background: linear-gradient(0deg, black, white); color: white;}
+
+#box1:hover,#box2:hover,#box3:hover,#box4:hover  {box-shadow:10px 8px #ffead8;}
+
+.box-content {
+	text-align: center;
+	height: auto;
+	width: auto;
+}
+
+.count {
+	width: 100%;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.box-para {
+	width: 100%;
+	font-size: 30px;
+}

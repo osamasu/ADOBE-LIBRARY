@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: linear-gradient(rgba(5, 15, 5, 0.2), rgba(5, 15, 5, 0.2)),url(../Image/back8.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.main-div {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-color: transparent;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-img {
+	width: 195px;
+	height: 195px;
+	animation: bounce2 1.6s;
+}
+
+.content-div2 .square {
+	position: absolute;
+	border-radius: 10px;
+	backdrop-filter: blur(5px);
+	background: rgba(255, 255, 255, 0.1);
+	animation: animate 10s linear infinite;
+	animation-delay: calc(-1s * var(--i));
+	box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		transform: translateY(-40px);
+	}
+
+	50% {
+		transform: translateY(40px);
+	}
+}
+
+.content-div2 .square:nth-child(1) {
+    top: 70px;
+    left: 400px;
+    width: 100px;
+    height: 100px;
+}
+
+.content-div2 .square:nth-child(2) {
+	z-index: -1;
+    bottom: 250px;
+    right: 370px;
+    width: 120px;
+    height: 120px;
+}
+
+.content-div2 .square:nth-child(3) {
+    width: 80px;
+    height: 80px;
+    right: 273px;
+    bottom: 60px;
+}
+
+.content-div2 .square:nth-child(4) {
+	left: 350px;
+    width: 50px;
+    height: 50px;
+    bottom: 161px;
+}
+
+.content-div2 .square:nth-child(5) {
+	z-index: -1;
+    top: 40px;
+    right: 570px;
+    width: 60px;
+    height: 60px;
+}
+
+.content-div {
+	height: 470px;
+	width: 30%;
+	background-color: #FFF;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #000000;
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.5s;
+	animation-name: zoom;
+	animation-duration: 0.5s;
+}
+
+@-webkit-keyframes zoom {
+	from{-webkit-transform:scale(0)}
+	to{-webkit-transform:scale(1)}	
+}
+
+@keyframes zoom {
+	from{transform:scale(0)}
+	to{transform:scale(1)}
+}
+
+.content-div2 {
+	height: auto;
+	width: 80%;
+	text-align: left;
+}
+
+/*.heading {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(64, 0, 255);
+	animation: bounce2 1.6s;
+}*/
+
+.container-username , .container-password {
+	margin-bottom: 14px;
+    display: flex;
+    border-bottom: solid #0091ff;
+    border-radius: 0 13px;
+}
+
+/*.container-password{  
+	  margin-bottom: 14px;	;
+	  display: flex;
+	}*/
+
+label {font-size: 18px;}
+
+
+input[type=text], input[type=password] {
+	background: none;
+    outline: none;
+    border: none;
+    color: #3e72ff;
+    width: 92%;
+    height: 25px;
+    margin-top: 3px;
+    padding: 10px;
+    font-size: unset;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.container-username {animation: bounce 1.4s;} 
+.container-password {animation: bounce 1.5s;}
+
+/*input[type=text]{
+	animation: bounce 1.4s;
+}
+
+input[type=password]{
+
+	animation: bounce1 1.5s;
+}*/
+
+.eye_icon{
+	width: 24px;
+    height: 24px;
+    padding-top: 17px;
+    background-color: #e7f0ff;
+    padding-bottom: 4px;
+    /* border-radius: 6px; */
+    margin-top: 3px;
+	cursor: pointer;
+}
+
+@keyframes bounce {
+	0%{
+		transform: translateY(-250px);
+		opacity: 0;
+	}
+}
+
+@keyframes bounce1 {
+	0%{
+		opacity: 0;
+	}
+	40%{
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+}
+
+@keyframes bounce2 {
+	70%{
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	0%{
+		opacity: 0;
+	}
+}
+
+.invalid {
+	width: 100%;
+	height: 18px;
+	font-size: 18px;
+	color: #F00;
+}
+
+.button-container {
+	margin-top: 33px;
+	width: 100%;
+	height: 70px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=submit] {
+    width: 300px;
+    border: 0;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #39F;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    animation: bounce2 1.6s;
+    transition: .3s;
+}
+
+input[type=submit]:hover
+{
+   background-color: #ffffff;
+   border: 2px solid #39F;
+   cursor: pointer;
+   color: #39F
+}
