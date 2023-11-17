@@ -2,7 +2,7 @@
 Adobe Library is a Simple Library Management System 
 ## Note: import Database That Exist in DB Folder With Name => #AdobeLibrary
 
-# ------------------------------------------------------------\
+# ------------------------------------------------------------
 
 # Home Page
 ![image](https://github.com/osamasu/ADOBE-LIBRARY/assets/97795269/924f4b29-5253-45a7-ba94-3e0cb23bce08)
