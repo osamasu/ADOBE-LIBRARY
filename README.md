@@ -1,6 +1,7 @@
 # ADOBE-LIBRARY
 ## Adobe Library is a Very Very Simplified By DB Contains Some Redunduncy And Less Normalization Or Architicture Because is a Small project For University . - Library Management System  
 ## Note: import Database That Exist in DB Folder With Name => Adobelibrary
+## Note: The CSS is written By My Partner Of Project Called { Ahmed Ali }
 
 # ------------------------------------------------------------
 
@@ -11,5 +12,3 @@
 # -------------------------------------------------------------
 
 # The Other Pages is Like Each Other - You Can Discover it By Click on the 9 boxes on Bottom Of Main Menu
-
-## Note: The CSS is written By My Partner Of Project Called { Ahmed Ali }
