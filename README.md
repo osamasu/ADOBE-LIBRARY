@@ -1,6 +1,6 @@
 # ADOBE-LIBRARY
 Adobe Library is a Simple Library Management System 
-## Note: import Database That Exist in DB Folder With Name => #AdobeLibrary
+## Note: import Database That Exist in DB Folder With Name => Adobelibrary
 
 # ------------------------------------------------------------
 
