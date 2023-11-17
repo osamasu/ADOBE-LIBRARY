@@ -6,8 +6,9 @@
 # ------------------------------------------------------------
 
 # Home Page
-![image](https://github.com/osamasu/ADOBE-LIBRARY/assets/97795269/924f4b29-5253-45a7-ba94-3e0cb23bce08)
-![image](https://github.com/osamasu/ADOBE-LIBRARY/assets/97795269/433b0b4f-dd66-429a-91e9-c5d882ff5e5d)
+![image](https://github.com/osamasu/ADOBE-LIBRARY/assets/97795269/123d1ec4-e1c9-41d2-bda9-0120233ec3f5)
+![image](https://github.com/osamasu/ADOBE-LIBRARY/assets/97795269/1be21e39-0a9a-4810-8023-ff269ffc461d)
+
 
 # -------------------------------------------------------------
 
